@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import linkedin from '$lib/images/github.svg';
+	import linkedin from '$lib/images/linkedin.svg';
 	import github from '$lib/images/github.svg';
 </script>
 
