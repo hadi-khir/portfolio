@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    width: 80vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.intro {
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.projects a {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    transition: color 0.3s;
+}
+
+.projects a:hover {
+    color: #3498db;
+}
+
+.email-link {
+    margin-top: 20px;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) } 
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) } 
+    100% { transform: rotate( 0.0deg) }
+  }
+  
