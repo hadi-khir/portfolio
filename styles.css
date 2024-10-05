@@ -51,12 +51,6 @@ body {
     color: #3498db;
 }
 
-.email-link {
-    margin-top: 20px;
-    font-size: 16px;
-    padding-bottom: 5px;
-}
-
 .wave {
     animation-name: wave-animation;
     animation-duration: 2.5s;
